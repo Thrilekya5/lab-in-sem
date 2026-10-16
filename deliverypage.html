@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Delivery System</title>
+    <h1>Welcome to Food Delivery System</h1>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+            background-color: #e22ba8b5;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background: black;
+            color: rgb(202, 33, 115);
+            padding: 15px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: lightgreen;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>BIRYANI</div>
+        <div>BEVARAGES</div>
+        <div>CAKES</div>
+    </div>
+    <table border="1" style="width:100%; margin-top:20px;">
+        <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Biryani</td>
+            <td>Delicious biryani made with the finest ingredients.</td>
+            <td>$10</td>
+        </tr>
+        <tr>
+            <td>Beverages</td>
+            <td>Refresh your taste buds with our variety of drinks.</td>
+            <td>$5</td>
+        </tr>
+        <tr>
+            <td>Cakes</td>
+            <td>Indulge in our delicious cakes and pastries.</td>
+            <td>$7</td>
+        </tr>
+    </table>
+    <table border="1" style="width:100%; margin-top:20px;">
+        <tr>
+           <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg" alt="Biryani" style="width:50%; height:auto;
+ margin-top:20px;">
+ <img src="https://static.vecteezy.com/system/resources/thumbnails/026/500/574/small_2x/summer-refreshing-beverages-photo.jpg" alt="Beverages" style="width:50%; height:auto; margin-top:20px;">
+   <img src="https://th.bing.com/th/id/OIP.bzfMGhqGKBOTzZ-5or9j3wHaLH?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Cakes" style="width:50%; height:auto; margin-top:20px;">
+    <div class="container">
+
+        
+<div class="card">
+            <h3>Special Offers</h3>
+        <p>Check out our special offers and discounts on your favorite food items!</p>
+        <br>
+
+        <p>On a bill above <b>2000</b>, get 20% off on all items!</p>
+        <br>
+        <p>Buy <b>1</b> get 1 on selected items!</p>
+        <br>
+        <p>Hurry! Limited time offer!</p>
+        </div>
+        
+        <div class="card">
+            <h3>BIRYANI</h3>
+            <p>CHICKEN DUM BIRYANI <br> CHICKEN FRY PIECE BIRYANI <br>MUTTON BIRYANI<br>KEEMA PULAV</p>
+            <p>Delicious biryani made with the finest ingredients.</p>
+        </div>
+        <div class="card">
+            <h3>BEVARAGES</h3>
+            <p>Cold drinks<br>Smoothies<br>Milkshakes<br>Thickshakes<br>Cocktails</p>
+            <p>Refresh your taste buds with our variety of drinks.</p>
+        </div>
+        <div class="card">
+            <h3>CAKES</h3>
+            <p>Chocolate Cake<br>Vanilla Cake<br>Red Velvet Cake<br>Cheesecake</p>
+            <p>Indulge in our delicious cakes and pastries.</p>
+        </div>
+    </div>
+</body>
+</html>
